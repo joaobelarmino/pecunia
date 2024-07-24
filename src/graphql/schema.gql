@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type User {
+  """User email address"""
+  email: String!
+
+  """User name"""
+  name: String!
+}
+
+type Query {
+  getUser: User!
+}
